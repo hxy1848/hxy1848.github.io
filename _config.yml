@@ -2,16 +2,17 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://hxy1848.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 时欲沉
+subtitle: "记录学习，体悟成长"
+description: "时欲沉的个人博客"
+keywords: 时欲沉
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: hxy1848/hxy1848.github.io
+
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -20,41 +21,43 @@ cdn:
 components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
-    share:
-        enabled: false
-        hide-platforms: qq,facebook
+​    share:
+​        enabled: false
+​        hide-platforms: qq,facebook
     # 不蒜子访问统计
-    busuanzi:
-        enabled: false
-        start_date: 2020-05-03
+​    busuanzi:
+​        enabled: false
+​        start_date: 2020-05-03
     # My Popular Repositories
-    side_bar_repo:
-        enabled: true
-        limit: 5
+​    side_bar_repo:
+​        enabled: true
+​        limit: 5
     # 文章字数统计
-    word_count:
-        enabled: true
+​    word_count:
+​        enabled: true
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
-    qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+​    qrcode:
+​        enabled: true
+​        image_alt: 闷骚的程序员
+
 # 压缩页面内容
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
+
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
 highlight_theme: github
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Xinyu Huang
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: hxy1848
+location: Nanjing, China
+email: xinyu-huang13@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -129,6 +132,7 @@ comments_provider: gitalk
 # https://disqus.com
 disqus:
     username: 
+
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: mzlogin
@@ -136,12 +140,14 @@ gitment:
     oauth:
         client_id: d2e1cbbd298958076462
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: hxy1848
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: a236fde2c04f5d69b644
+    clientSecret: 17e0dc1b30f9fc93b229834dc99e23764031e3eb
+
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
