@@ -144,7 +144,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: hxy1848
-    repo: blog
+    repo: hxy1848.github.io
     clientID: a236fde2c04f5d69b644
     clientSecret: 17e0dc1b30f9fc93b229834dc99e23764031e3eb
 
